@@ -1,0 +1,7 @@
+rootProject.name = 'MicoupImagePickerTest'
+include ':react-native-micoup-image-picker'
+project(':react-native-micoup-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-micoup-image-picker/android')
+include ':react-native-ios-test'
+project(':react-native-ios-test').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ios-test/android')
+
+include ':app'
