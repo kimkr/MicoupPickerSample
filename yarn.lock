@@ -4858,14 +4858,14 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-native-clean-project@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-clean-project/-/react-native-clean-project-3.2.1.tgz#6867f8ecb96c36ab8487b75942fb96bd46fe13b1"
-  integrity sha512-D/Wl5/b9gSRe+v9ikqpTVuFruypD2jlFVBrvGx7KVMvv3p36UHqEFmgLJb0CGOjEFqQ55BuLg7ChoTsyo/E47A==
+react-native-clean-project@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-clean-project/-/react-native-clean-project-3.2.3.tgz#40313a3a4131353d5d082d7691b41b4de6f40eb2"
+  integrity sha512-c8NgNTXAwugyuP+bS5b5mwpML4JrSP+u9D5b6X5OudU6hPlzPsiFLnBzQUvJVSPRHRwCFj30/qHGCjLc/jPzUw==
 
-"react-native-ios-test@https://github.com/kimkr/RNCreateLibTest":
-  version "1.0.0"
-  resolved "https://github.com/kimkr/RNCreateLibTest#baf38c6e0a6f278fff17614e6260a0a7647c8276"
+"react-native-micoup-image-picker@https://github.com/kimkr/MicoupImagePick.git":
+  version "0.1.0"
+  resolved "https://github.com/kimkr/MicoupImagePick.git#bdc50b24590cdecf991aa62ca4fc0b5cd727cd96"
 
 react-native@0.59.9:
   version "0.59.9"

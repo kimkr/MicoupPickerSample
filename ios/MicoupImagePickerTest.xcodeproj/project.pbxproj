@@ -36,9 +36,8 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* MicoupImagePickerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MicoupImagePickerTestTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		617D9DA07DEF4EFBAD04E5D2 /* libRNIosTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDBDF585219424AB001048E /* libRNIosTest.a */; };
+		512732F35141480AA8BA1CDD /* libPods-MicoupImagePickerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A83C6EB1B0B80292C103B4A /* libPods-MicoupImagePickerTest.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		8EF22A094B54BA151B7B97FC /* Pods_MicoupImagePickerTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E4D1C3CB572C2EB54A8C /* Pods_MicoupImagePickerTest.framework */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -114,13 +113,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
 			remoteInfo = "jsiexecutor-tvOS";
-		};
-		0FAE861522B9EB7B00606EF9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BFA6B6DB1D642B291690239 /* RNIosTest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNIosTest;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -349,17 +341,17 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1DDBDF585219424AB001048E /* libRNIosTest.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNIosTest.a; sourceTree = "<group>"; };
 		22E5C511A2564FCC8549B744 /* libRNMicoupImagePicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNMicoupImagePicker.a; sourceTree = "<group>"; };
+		2A83C6EB1B0B80292C103B4A /* libPods-MicoupImagePickerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MicoupImagePickerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* MicoupImagePickerTest-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MicoupImagePickerTest-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MicoupImagePickerTest-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MicoupImagePickerTest-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BFA6B6DB1D642B291690239 /* RNIosTest.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNIosTest.xcodeproj; path = "../node_modules/react-native-ios-test/ios/RNIosTest.xcodeproj"; sourceTree = "<group>"; };
+		54AE4E65F7684F33A743D896 /* libRNImagePicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImagePicker.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		5FBB07ED5063F517C53C19F2 /* Pods-MicoupImagePickerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicoupImagePickerTest.release.xcconfig"; path = "Target Support Files/Pods-MicoupImagePickerTest/Pods-MicoupImagePickerTest.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		9B2BCD046CB7C7D115C75D46 /* Pods-MicoupImagePickerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicoupImagePickerTest.debug.xcconfig"; path = "Target Support Files/Pods-MicoupImagePickerTest/Pods-MicoupImagePickerTest.debug.xcconfig"; sourceTree = "<group>"; };
+		888366D988DD7AE8CEE1E711 /* Pods-MicoupImagePickerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicoupImagePickerTest.debug.xcconfig"; path = "Target Support Files/Pods-MicoupImagePickerTest/Pods-MicoupImagePickerTest.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		AE49E4D1C3CB572C2EB54A8C /* Pods_MicoupImagePickerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicoupImagePickerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC41BC14178A5CD6C8505851 /* Pods-MicoupImagePickerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicoupImagePickerTest.release.xcconfig"; path = "Target Support Files/Pods-MicoupImagePickerTest/Pods-MicoupImagePickerTest.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -390,8 +382,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				617D9DA07DEF4EFBAD04E5D2 /* libRNIosTest.a in Frameworks */,
-				8EF22A094B54BA151B7B97FC /* Pods_MicoupImagePickerTest.framework in Frameworks */,
+				512732F35141480AA8BA1CDD /* libPods-MicoupImagePickerTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,16 +477,9 @@
 			children = (
 				1DDBDF585219424AB001048E /* libRNIosTest.a */,
 				22E5C511A2564FCC8549B744 /* libRNMicoupImagePicker.a */,
+				54AE4E65F7684F33A743D896 /* libRNImagePicker.a */,
 			);
 			name = "Recovered References";
-			sourceTree = "<group>";
-		};
-		0FAE861222B9EB7B00606EF9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0FAE861622B9EB7B00606EF9 /* libRNIosTest.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -561,7 +545,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				AE49E4D1C3CB572C2EB54A8C /* Pods_MicoupImagePickerTest.framework */,
+				2A83C6EB1B0B80292C103B4A /* libPods-MicoupImagePickerTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -569,8 +553,8 @@
 		4E340C95D6B35699A741F80F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B2BCD046CB7C7D115C75D46 /* Pods-MicoupImagePickerTest.debug.xcconfig */,
-				5FBB07ED5063F517C53C19F2 /* Pods-MicoupImagePickerTest.release.xcconfig */,
+				888366D988DD7AE8CEE1E711 /* Pods-MicoupImagePickerTest.debug.xcconfig */,
+				CC41BC14178A5CD6C8505851 /* Pods-MicoupImagePickerTest.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -608,7 +592,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				3BFA6B6DB1D642B291690239 /* RNIosTest.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -683,11 +666,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MicoupImagePickerTest" */;
 			buildPhases = (
-				38D64EACF0EAA00CC3448E52 /* [CP] Check Pods Manifest.lock */,
+				CACFF7656F12F6F093051979 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				91B4583CA96704B97E474116 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -745,7 +729,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7YH79MC2V8;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 7YH79MC2V8;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -818,10 +806,6 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-				},
-				{
-					ProductGroup = 0FAE861222B9EB7B00606EF9 /* Products */;
-					ProjectRef = 3BFA6B6DB1D642B291690239 /* RNIosTest.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -896,13 +880,6 @@
 			fileType = archive.ar;
 			path = "libjsiexecutor-tvOS.a";
 			remoteRef = 0FAE860E22B9EB7B00606EF9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0FAE861622B9EB7B00606EF9 /* libRNIosTest.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNIosTest.a;
-			remoteRef = 0FAE861522B9EB7B00606EF9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
@@ -1166,7 +1143,25 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		38D64EACF0EAA00CC3448E52 /* [CP] Check Pods Manifest.lock */ = {
+		91B4583CA96704B97E474116 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MicoupImagePickerTest/Pods-MicoupImagePickerTest-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MicoupImagePicker/Resources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MicoupImagePickerTest/Pods-MicoupImagePickerTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACFF7656F12F6F093051979 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1257,6 +1252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7YH79MC2V8;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1265,12 +1261,16 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = MicoupImagePickerTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1289,9 +1289,13 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 7YH79MC2V8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = MicoupImagePickerTestTests/Info.plist;
@@ -1299,6 +1303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1314,14 +1319,18 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B2BCD046CB7C7D115C75D46 /* Pods-MicoupImagePickerTest.debug.xcconfig */;
+			baseConfigurationReference = 888366D988DD7AE8CEE1E711 /* Pods-MicoupImagePickerTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 7YH79MC2V8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = MicoupImagePickerTest/Info.plist;
@@ -1339,13 +1348,17 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FBB07ED5063F517C53C19F2 /* Pods-MicoupImagePickerTest.release.xcconfig */;
+			baseConfigurationReference = CC41BC14178A5CD6C8505851 /* Pods-MicoupImagePickerTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YH79MC2V8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = MicoupImagePickerTest/Info.plist;
@@ -1377,11 +1390,15 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = "MicoupImagePickerTest-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1413,11 +1430,15 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = "MicoupImagePickerTest-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1448,11 +1469,15 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = "MicoupImagePickerTest-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1483,11 +1508,15 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-ios-test/ios",
 					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-micoup-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = "MicoupImagePickerTest-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
