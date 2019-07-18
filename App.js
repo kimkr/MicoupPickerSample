@@ -70,28 +70,27 @@ no : '-1' - 새글이란 의미
 url이 이후에도 https://나 http://로 시작되면 그대로 사용해주세요.
  */
 export default class App extends Component<Props> {
+
+  showImagePicker = () => {
+    ImagePicker.showImagePickerWithOptions({
+      boardId: 'review',
+      documentNo: '-1',
+      cookie: 'MCSESSID=ae3630d20bba59d1b88a75134e00ff2a',
+      userAgent: 'MissyCouponsTest/1.0.6(197.1)',
+      imageUploadURL: 'http://a-s1.micoup.com/zero/p/file_upload.php',
+      imageCount: 3,
+      spanCount: 3,
+      enableCamera: true
+    })
+  };
+
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Button
-          title={"Image Picker"}
-          onPress={() => {
-            ImagePicker.showImagePickerWithOptions({
-              boardId: 'review',
-              documentNo: -1,
-              cookie: 'MCSESSID=ae3630d20bba59d1b88a75134e00ff2a',
-              userAgent: 'MissyCouponsTest/1.0.6(197.1)',
-              imageUploadURL: 'https://http://a-s1.micoup.com/zero/p/file_upload.php',
-              imageCount: 3,
-              spanCount: 3,
-              enableCamera: true
-            }, (selected) => {
-              Alert.alert(JSON.stringify(selected))
-            })
-          }} />
+        <Button title={"Image Picker"} onPress={this.showImagePicker} />
       </View>
     );
   }
