@@ -4884,7 +4884,7 @@ react-native-clean-project@^3.2.3:
 
 "react-native-micoup-image-picker@https://github.com/kimkr/MicoupImagePick.git":
   version "0.1.0"
-  resolved "https://github.com/kimkr/MicoupImagePick.git#d467efc9ac79e2fc1a1d6aaae026f1b36d17540d"
+  resolved "https://github.com/kimkr/MicoupImagePick.git#4e5bbf3da66ab2696a5471619220a010289d332b"
 
 react-native@0.59.9:
   version "0.59.9"

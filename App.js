@@ -75,12 +75,44 @@ export default class App extends Component<Props> {
     ImagePicker.showImagePickerWithOptions({
       boardId: 'review',
       documentNo: '-1',
-      cookie: 'MCSESSID=ae3630d20bba59d1b88a75134e00ff2a',
+      cookie: '9feaa10fbb16a58a2ff663ea7ebeaabc',
       userAgent: 'MissyCouponsTest/1.0.6(197.1)',
-      imageUploadURL: 'http://a-s1.micoup.com/zero/p/file_upload.php',
+      imageUploadURL: 'https://a-s1.micoup.com/zero/p/file_upload.php',
       imageCount: 3,
       spanCount: 3,
       enableCamera: true
+    }).then(files => {
+      console.log('Should show array of files(response) about uploading multiple photos', files)
+      /**
+       * files :
+[
+{
+ "name":"win_distr.jpg",
+ "success":true,
+ "msg":"성공",
+ "image_id":1266393,
+ "serial":"5188120199046026725",
+ "width":230,
+ "height":164,
+ "url":
+   "icon/member_image_box/444/win_distr.jpg",
+ "updated":null
+},
+{
+ "name":"distr.jpg",
+ "success":true,
+ "msg":"성공",
+ "image_id":1266394,
+ "serial":"7188122199046026723",
+ "width":230,
+ "height":164,
+ "url":
+   "icon/member_image_box/444/distr.jpg",
+ "updated":null
+}]
+       */
+    }).catch(error => {
+      console.log(error)
     })
   };
 

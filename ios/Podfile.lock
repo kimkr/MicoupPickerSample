@@ -186,7 +186,7 @@ SPEC CHECKSUMS:
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
-  MicoupImagePicker: e6df7ac9df291e966ac140ea862f7620c4b4574f
+  MicoupImagePicker: 4175d2b3de95e059e96abcc6c6f52c2e2f875cf3
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
   NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
   NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
