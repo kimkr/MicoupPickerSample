@@ -85,8 +85,8 @@ export default class App extends Component<Props> {
       console.log('Should show array of files(response) about uploading multiple photos', files)
       /**
        * files :
-[
-{
+       [
+       {
  "name":"win_distr.jpg",
  "success":true,
  "msg":"성공",
@@ -98,7 +98,7 @@ export default class App extends Component<Props> {
    "icon/member_image_box/444/win_distr.jpg",
  "updated":null
 },
-{
+       {
  "name":"distr.jpg",
  "success":true,
  "msg":"성공",
@@ -116,13 +116,33 @@ export default class App extends Component<Props> {
     })
   };
 
+  openCamera = () => {
+    ImagePicker.openCameraWithOptions({
+      boardId: 'review',
+      documentNo: '-1',
+      cookie: '9feaa10fbb16a58a2ff663ea7ebeaabc',
+      userAgent: 'MissyCouponsTest/1.0.6(197.1)',
+      imageUploadURL: 'https://a-s1.micoup.com/zero/p/file_upload.php',
+      imageCount: 3,
+      spanCount: 3,
+      enableCamera: true
+    })
+      .then(files => {
+        console.log('openCamera files', files)
+      })
+      .catch(e => {
+        console.log(e)
+      })
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Button title={"Image Picker"} onPress={this.showImagePicker} />
+        <Button title={"Album"} onPress={this.showImagePicker} />
+        <Button title={"Camera"} onPress={this.openCamera} />
       </View>
     );
   }

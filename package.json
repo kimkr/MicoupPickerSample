@@ -5,12 +5,13 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "clean": "react-native-clean-project"
+    "clean": "react-native-clean-project",
+    "android": "react-native run-android"
   },
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.9",
-    "react-native-micoup-image-picker": "https://github.com/kimkr/MicoupImagePick.git"
+    "react-native-micoup-image-picker": "../MicoupImagePick"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
